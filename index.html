@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- Link -->
+  <link rel="icon" type="image/x-icon" href="Images/favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="utilities.css" />
+</head>
+
+<body>
+  <header id="hero">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <!-- Logo -->
+        <h1 id="logo">
+          <a href="#"><img src="Images/logo.png" alt="Your Logo" /></a>
+        </h1>
+        <!-- Navbar links -->
+        <ul class="nav-menu">
+          <li><a class="nav-link" href="#hero">Home</a></li>
+          <li><a class="nav-link" href="#edu">Education</a></li>
+          <li><a class="nav-link" href="#skil">Skills</a></li>
+          <li><a class="nav-link" href="#proje">Projects</a></li>
+
+          <!-- Toggle switch -->
+          <div class="theme-switch">
+            <input type="checkbox" id="switch" />
+            <label class="toggle-icons" for="switch">
+              <img class="moon" src="Images/moon.svg" />
+              <img class="sun" src="Images/sun.svg" />
+            </label>
+          </div>
+          <!-- Hamburger menu -->
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+    <section class="header-container">
+      <img class="profile-image" src="Images/nitishimage.jpg" alt="profile-image" />
+      <h1>Hi I'm Nitish Sharma</h1>
+      <div class="content-text">
+        <h2 id="position">Web Developer</h2>
+        <h2>Quick Learner | Core Java</h2>
+        <p>
+          A fresher with entry-level experience specializing in user interface design, application development, and
+          continuous improvement. Adept at identifying opportunities to enhance the user experience and develop new
+          features to improve app functionality.
+        </p>
+      </div>
+      <div class="btn-two">
+        <li><a href="#Getintouch" class="one" >Get In Touch</a></li>
+        <li><a href="Images/Nitish CV.pdf" class="two" >Download Resume</a></li>
+      </div>
+    </section>
+  </header>
+  <hr class="line" id="edu">
+  <!-- Education -->
+  <section class="education" >
+    <div class="edu">
+      <h2>Eduaction</h2>
+    </div>
+    <ol reversed class="education-list">
+      <li class="education-item">
+        <h4 class="h4 education-item-title">Tilak Maharashtra University, Pune.</h4>
+        <span>June 2021- May 2024</span>
+        <h4 class="h4 education-item-title">Bachelor of Computer Applications(BCA).</h4>
+        <br><br>
+      </li>
+      <hr>
+      <li class="education-item">
+        <h4 class="h4 education-item-title">Maharashtra State Board.</h4>
+        <span>June 2019 — May 2021</span>
+        <h4 class="h4 education-item-title">H.S.C</h4>
+        <span>65%</span>
+        <br><br>
+      </li>
+      <hr>
+      <li class="education-item">
+        <h4 class="h4 education-item-title">Maharashtra State Board.</h4>
+        <span>May 2019</span>
+        <h4 class="h4 education-item-title">S.S.C</h4>
+        <span>60%</span>
+        <br><br>
+        
+      </li>
+    </ol>
+  </section>
+  <hr class="line" id="skil">
+  <!--skills-->
+  <section class="section flex" >
+    <h2 class="title">MY SKILLS</h2>
+    <div class="progress-bar-container">
+      <h2>
+        <label for="html">HTML</label>
+      </h2>
+      <div class="progress-bar html">
+        <progress id="html" min="0" max="100" value="90"></progress>
+      </div>
+    </div>
+
+    <div class="progress-bar-container">
+      <h2>
+        <label for="css">CSS</label>
+      </h2>
+      <div class="progress-bar css">
+        <progress id="css" min="0" max="100" value="90"></progress>
+      </div>
+    </div>
+
+    <div class="progress-bar-container">
+      <h2>
+        <label for="js">JavaScript</label>
+      </h2>
+      <div class="progress-bar js">
+        <progress id="js" min="0" max="100" value="80"></progress>
+      </div>
+    </div>
+    <div class="progress-bar-container">
+      <h2>
+        <label for="js">JSP</label>
+      </h2>
+      <div class="progress-bar js">
+        <progress id="js" min="0" max="100" value="90"></progress>
+      </div>
+    </div>
+    <div class="progress-bar-container">
+      <h2>
+        <label for="js">Core Java</label>
+      </h2>
+      <div class="progress-bar js">
+        <progress id="js" min="0" max="100" value="90"></progress>
+      </div>
+    </div>
+   
+    <div class="progress-bar-container">
+      <h2>
+        <label for="js">MYSQL</label>
+      </h2>
+      <div class="progress-bar js">
+        <progress id="js" min="0" max="100" value="80"></progress>
+      </div>
+    </div>
+ 
+  
+   
+   
+  </section>
+  <hr class="line" id="proje">
+  <!--project-->
+  <h2 class="title" >PROJECTS</h2>
+  <div class="cards">
+    <div class="cards">
+      <li>
+        <a href="" class="card">
+          <img src="Images/home ghar.png" class="card__image" alt="" />
+          <div class="card__overlay">
+            <div class="card__header">
+              <h2>E-Railway website</h2><span>
+                <h6>USING</h6>
+              </span>
+              <ul class="chips">
+                <li class="chip">Html</li>
+                <li class="chip">Css</li>
+                <li class="chip">Javascript</li>
+                <li class="chip">Java</li>
+                <li class="chip">MYSQL</li>
+                <li class="chip">Bootstrap</li>
+                <li class="chip">Maven</li>
+                <li class="chip">JSP</li>
+              </ul>
+            </div>
+            <p class="card__description">The railway reservation system helps us book tickets for trains and cancel tickets. as well the admin can add, delete, and update the train and train information the super admin can Create and delete the admin accounts.Tha Railway Reservation system is user Friendly,and responsive website</p>
+            <button> More!
+            </button>
+          </div>
+        </a>
+      </li>
+    </div>
+    <div class="cards">
+      <li>
+        <a href="" class="card">
+          <img src="Images/nitish.png" class="card__image" alt="" />
+          <div class="card__overlay">
+            <div class="card__header">
+              <h2>Portfolio website</h2><span>
+                <h6>USING</h6>
+              </span>
+              <ul class="chips">
+                <li class="chip">Html</li>
+                <li class="chip">Css</li>
+                <li class="chip">JavaScript</li>
+              </ul>
+            </div>
+            <p class="card__description">portfolio is a fully responsive personal portfolio website, responsive for all devices.</p>
+            <button> More!
+            </button>
+          </div>
+        </a>
+      </li>
+    </div>
+  </div>
+
+  <!--contact info-->
+  <hr class="line" id="Getintouch">
+  <h2 class="title">Connect with social-media</h2>
+  <div class="social-media" >
+    <div class="capsule"><img src="Images/instagram_2111463.png" alt="instagram"><a target="_blank" href="https://www.instagram.com/sharma__nitish0" class="iconname">Instagram</a>
+    </div>
+    <div class="capsule"><img src="Images/facebook icon.png" alt="facebook"><a target="_blank" href="https://www.facebook.com/profile.php?id=100040621786610" class="iconname">Facebook</a>
+    </div>
+    <div class="capsule"><img src="Images/linkedin.png" alt="linkedin"><a target="_blank" href="https://www.linkedin.com/in/nitish-sharma-a41768230" class="iconname">Linkedin</a>
+    </div>
+    <div class="capsule"><img src="Images/social.png" alt="email"><a href="nitishsharma1294@gmail.com" target="_blank" class="iconname">Gmail</a>
+    </div>
+    
+  </div>
+  <!--Contact me-->
+  <hr class="line">
+  <h2 class="title">Get in touch</h2>
+<form class="cf">
+  <div class="half left cf">
+    <input type="text" id="input-name" placeholder="Name" required>
+    <input type="email" id="input-email" placeholder="Email address" required>
+    <input type="text" id="input-subject" placeholder="Subject" required>
+  </div>
+  <div class="half right cf">
+    <textarea name="message" type="text" id="input-message" placeholder="Message"  required></textarea>
+  </div>  
+  <input type="submit" value="Submit" id="input-submit">
+</form>
+
+  <!--footer-->
+  <footer id="footer">
+    <div class="container">
+      <a href="mailto:nitishsharma1294@gmail.com">nitishsharma1294@gmail.com</a>
+      <!-- Social links -->
+      <div class="social">
+        <a href="https://www.facebook.com/profile.php?id=100040621786610" target="_blank"><img src="Images/facebook icon.png" alt="Facebook" /></a>
+        <a href="https://www.instagram.com/sharma__nitish0" target="_blank"><img src="Images/instagram_2111463.png" alt="Twitter" /></a>
+        <a href="https://www.linkedin.com/in/nitish-sharma-a41768230" target="_blank"><img src="Images/linkedin.png" alt="Linkedin" /></a>
+        <a href="https://github.com/nitish1294" target="_blank"><img src="Images/GitHub.png" alt="GitHub" /></a>
+      </div>
+      <!-- Attribution -->
+      <p>Copyright &copy; Nitish <span id="datee"></span>, All rights reserved</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
